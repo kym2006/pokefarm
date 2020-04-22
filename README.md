@@ -1,6 +1,5 @@
 # pokefarm
 ## This is program that helps you automatically spam and catch pokemon with 0 user input in pokecord.
-## Releases: https://github.com/kym7D6/pokefarm/releases
 ## Dependencies:
 1. pokeassisstant
 Follow the instructions here -> https://github.com/CHamburr/PokeAssistant

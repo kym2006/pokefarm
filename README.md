@@ -5,4 +5,4 @@
 Follow the instructions here -> https://github.com/CHamburr/PokeAssistant
 2. tesseract-ocr
 Follow the instructions here -> https://www.youtube.com/watch?v=haHuVAUGY5Y
-download it and add it to your path.
+download it and **add it to your path**.

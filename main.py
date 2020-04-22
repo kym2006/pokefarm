@@ -18,8 +18,8 @@ turn = 0
 def on_press():
     global last, turn
     turn += 1
-    # shot = gui.screenshot(region=(467,105,1532-467,907-105))
-    shot = gui.screenshot()
+    shot = gui.screenshot(region=(467,105,1532-467,907-105))
+    #shot = gui.screenshot()
     shot.save(r"screen.png")
     img = cv2.imread("screen.png")
     text = pytesseract.image_to_string(img)
@@ -37,6 +37,6 @@ def on_press():
         recentmons.pop(0)
 while 1:
     on_press()
-    #time.sleep(0.8)
+    time.sleep(0.8)
 
 

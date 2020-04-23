@@ -1,6 +1,5 @@
 import cv2
 import pytesseract
-#pytesseract.pytesseract.tesseract_cmd=  r'Tesseract-OCR\\tesseract.exe'
 import pyautogui as gui
 import time
 from pokemons import pokemons as pokemon
